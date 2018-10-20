@@ -156,14 +156,6 @@ class Shdbsz(Azla):
         l = Azla.pmo(self) - self.c
         return Azla.smo(self) / l
 
-
-# try:
-#    az1 = int(input("zel aval ro vared kn: "))
-#    az2 = int(input("zel dovom ro vared kn: "))
-#    az3 = int(input("zel sevo ro vared kn: "))
-# except Exception as err:
-#    print("write like a human", err)
-
 he = Shdbsz(8, 15, 17)
 print(he.ra(), he.rb(), he.rc())
 
